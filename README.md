@@ -23,7 +23,7 @@ This is a simple web application built with Flask and SQLAlchemy that allows use
 1. **Clone the repository:**
 
    ```sh
-   git clone https://github.com/your-repo/student-records.git
+   git clone https://github.com/ramigoii/student_records
    cd student-records
    ```
 
@@ -69,12 +69,14 @@ This is a simple web application built with Flask and SQLAlchemy that allows use
 student_records/
 │-- static/
 │   ├── style.css
+│-- instance/
+│   ├── students.db
 │-- templates/
 │   ├── index.html
 │   ├── add_student.html
 │   ├── edit_student.html
+│   ├── search.html
 │-- app.py
-│-- requirements.txt
 │-- README.md
 │-- populate_db.py
 ```
